@@ -170,7 +170,7 @@ const Video = () => {
         <Title>{currentVideo?.title}</Title>
         <Details>
           <Info>
-            {currentVideo?.views} views • {format(currentVideo?.createdAt)}
+            {currentVideo?.views} views • (currentVideo?.createdAt)
           </Info>
           <Buttons>
             <Button onClick={handleLike}>
