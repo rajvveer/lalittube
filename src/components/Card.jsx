@@ -83,6 +83,6 @@ const Card = ({ type,video }) => {
       </Container>
     </Link>
   );
-};
+}
 
 export default Card;
